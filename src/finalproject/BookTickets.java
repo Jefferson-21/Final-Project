@@ -137,10 +137,10 @@ public class BookTickets extends javax.swing.JInternalFrame {
         setPreferredSize(new java.awt.Dimension(800, 480));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel3.setBackground(new java.awt.Color(153, 255, 153));
+        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(255, 204, 102));
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(153, 0, 0)), "Select Your Journey", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Liberation Sans", 1, 13), new java.awt.Color(153, 0, 0))); // NOI18N
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -165,7 +165,6 @@ public class BookTickets extends javax.swing.JInternalFrame {
         jLabel3.setText("Destination");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 20, -1, -1));
 
-        jButton1.setBackground(new java.awt.Color(102, 255, 204));
         jButton1.setFont(new java.awt.Font("Liberation Sans", 1, 13)); // NOI18N
         jButton1.setForeground(new java.awt.Color(204, 0, 0));
         jButton1.setText("Search");
@@ -199,7 +198,7 @@ public class BookTickets extends javax.swing.JInternalFrame {
 
         jPanel3.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 330, 770, 80));
 
-        jPanel2.setBackground(new java.awt.Color(255, 204, 102));
+        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createMatteBorder(1, 1, 1, 1, new java.awt.Color(204, 0, 0)), "Ticket Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Liberation Sans", 1, 13), new java.awt.Color(153, 0, 0))); // NOI18N
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -281,7 +280,6 @@ public class BookTickets extends javax.swing.JInternalFrame {
 
         jPanel3.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 10, 330, 310));
 
-        bookbtn.setBackground(new java.awt.Color(102, 255, 204));
         bookbtn.setFont(new java.awt.Font("Liberation Sans", 1, 13)); // NOI18N
         bookbtn.setForeground(new java.awt.Color(204, 0, 0));
         bookbtn.setText("Book");
@@ -292,7 +290,6 @@ public class BookTickets extends javax.swing.JInternalFrame {
         });
         jPanel3.add(bookbtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 418, 90, -1));
 
-        jButton3.setBackground(new java.awt.Color(102, 255, 204));
         jButton3.setFont(new java.awt.Font("Liberation Sans", 1, 13)); // NOI18N
         jButton3.setForeground(new java.awt.Color(204, 0, 0));
         jButton3.setText("Cancel");
@@ -303,7 +300,7 @@ public class BookTickets extends javax.swing.JInternalFrame {
         });
         jPanel3.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 418, 92, -1));
 
-        jPanel4.setBackground(new java.awt.Color(255, 204, 102));
+        jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(new javax.swing.border.MatteBorder(null), "Customer Details", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Liberation Sans", 1, 13), new java.awt.Color(153, 0, 0))); // NOI18N
         jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -329,7 +326,6 @@ public class BookTickets extends javax.swing.JInternalFrame {
         jLabel5.setText("Passport NO.");
         jPanel4.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 80, -1, -1));
 
-        searchcustbtn.setBackground(new java.awt.Color(102, 255, 204));
         searchcustbtn.setFont(new java.awt.Font("Liberation Sans", 1, 13)); // NOI18N
         searchcustbtn.setForeground(new java.awt.Color(204, 0, 0));
         searchcustbtn.setText("Search Customer ");
