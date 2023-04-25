@@ -66,7 +66,7 @@ public class AddFlight extends javax.swing.JInternalFrame {
         setPreferredSize(new java.awt.Dimension(800, 479));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(153, 255, 153));
+        jPanel1.setBackground(new java.awt.Color(153, 153, 153));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Add Flights", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Liberation Sans", 1, 18), new java.awt.Color(0, 102, 102))); // NOI18N
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -114,9 +114,9 @@ public class AddFlight extends javax.swing.JInternalFrame {
         jPanel1.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 170, 180, -1));
         jPanel1.add(txtflightname, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 170, 160, -1));
 
-        jPanel2.setBackground(new java.awt.Color(255, 204, 102));
+        jPanel2.setBackground(new java.awt.Color(204, 204, 204));
 
-        jButton1.setBackground(new java.awt.Color(102, 255, 204));
+        jButton1.setBackground(new java.awt.Color(51, 51, 0));
         jButton1.setFont(new java.awt.Font("Liberation Sans", 1, 13)); // NOI18N
         jButton1.setForeground(new java.awt.Color(204, 0, 0));
         jButton1.setText("Add Flight");
@@ -126,7 +126,7 @@ public class AddFlight extends javax.swing.JInternalFrame {
             }
         });
 
-        jButton2.setBackground(new java.awt.Color(102, 255, 204));
+        jButton2.setBackground(new java.awt.Color(51, 51, 0));
         jButton2.setFont(new java.awt.Font("Liberation Sans", 1, 13)); // NOI18N
         jButton2.setForeground(new java.awt.Color(204, 0, 0));
         jButton2.setText("Cancel");
@@ -137,6 +137,11 @@ public class AddFlight extends javax.swing.JInternalFrame {
         });
 
         txtsource.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Ranchi", "Delhi ", "Mumbai", "Kolkata", "Hydrabad" }));
+        txtsource.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtsourceActionPerformed(evt);
+            }
+        });
 
         txtdestination.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Ranchi", "Delhi ", "Mumbai", "Kolkata", "Hydrabad" }));
 
@@ -230,6 +235,10 @@ public class AddFlight extends javax.swing.JInternalFrame {
             Logger.getLogger(AddFlight.class.getName()).log(Level.SEVERE, null, ex);
         }
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void txtsourceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtsourceActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtsourceActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
