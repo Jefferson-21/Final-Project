@@ -59,8 +59,9 @@ public class AddUser extends javax.swing.JInternalFrame {
         setResizable(false);
         setPreferredSize(new java.awt.Dimension(800, 475));
 
-        jPanel1.setBackground(new java.awt.Color(153, 255, 153));
-        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Add User", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Liberation Mono", 1, 18), new java.awt.Color(0, 102, 102))); // NOI18N
+        jPanel1.setBackground(new java.awt.Color(102, 102, 102));
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Add User", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Liberation Mono", 1, 18), new java.awt.Color(255, 255, 255))); // NOI18N
+        jPanel1.setForeground(new java.awt.Color(204, 204, 204));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Liberation Mono", 1, 18)); // NOI18N
@@ -87,7 +88,7 @@ public class AddUser extends javax.swing.JInternalFrame {
         jPanel1.add(tusername, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 190, 270, 30));
         jPanel1.add(tpassword, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 260, 270, 30));
 
-        jButton1.setBackground(new java.awt.Color(102, 255, 204));
+        jButton1.setBackground(new java.awt.Color(51, 51, 0));
         jButton1.setFont(new java.awt.Font("Liberation Mono", 1, 13)); // NOI18N
         jButton1.setForeground(new java.awt.Color(204, 0, 0));
         jButton1.setText("Add");
@@ -98,10 +99,10 @@ public class AddUser extends javax.swing.JInternalFrame {
         });
         jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 340, 110, 40));
 
-        jPanel2.setBackground(new java.awt.Color(255, 204, 102));
+        jPanel2.setBackground(new java.awt.Color(153, 153, 153));
         jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton2.setBackground(new java.awt.Color(102, 255, 204));
+        jButton2.setBackground(new java.awt.Color(51, 51, 0));
         jButton2.setFont(new java.awt.Font("Liberation Sans", 1, 13)); // NOI18N
         jButton2.setForeground(new java.awt.Color(204, 0, 0));
         jButton2.setText("Cancel");
