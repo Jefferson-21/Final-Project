@@ -156,7 +156,7 @@ public class SearchCustomers extends javax.swing.JInternalFrame {
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(416, 68, 340, 290));
 
-        jPanel3.setBackground(new java.awt.Color(153, 255, 153));
+        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jButton2.setBackground(new java.awt.Color(102, 255, 204));
